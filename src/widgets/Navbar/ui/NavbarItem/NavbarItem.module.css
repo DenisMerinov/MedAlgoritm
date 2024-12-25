@@ -1,0 +1,7 @@
+.active {
+    color: var(--mantine-color-blue-9)
+}
+
+.active.main {
+    color: var(--mantine-color-black)
+}

@@ -1,0 +1,26 @@
+
+.navbarItem {
+    color: #5B5B7C;
+    transition: 0.3s all;
+
+    &.mobile {
+        color: #2A3F52
+    }
+
+    &:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}
+
+
+.main {
+    color: var(--mantine-color-white)
+}
+
+.menu {
+    color: #5B5B7C;
+}
+.menu.main {
+    color: var(--mantine-color-white)
+}

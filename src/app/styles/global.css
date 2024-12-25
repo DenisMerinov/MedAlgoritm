@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+}
+
+.page-wrapper {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    width: 100%;
+}

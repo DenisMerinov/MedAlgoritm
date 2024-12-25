@@ -1,0 +1,14 @@
+.heading {
+    &:is(h1) {
+        font-size: 36px;
+        font-weight: 700;
+        @media (max-width: $mantine-breakpoint-sm) {
+            font-size: 28px;
+
+        }
+    }
+    &:is(h2) {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

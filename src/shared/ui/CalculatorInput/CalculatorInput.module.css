@@ -1,0 +1,9 @@
+.label {
+    font-weight: 700;
+    min-width: 110px;
+    margin-right: 10px;
+}
+
+.labelAdditional {
+    color: #2B72FE
+}

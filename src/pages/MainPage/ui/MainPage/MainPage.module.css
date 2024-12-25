@@ -1,0 +1,42 @@
+.wrapper {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    @media (max-width: $mantine-breakpoint-md) {
+        justify-content: center;
+    }
+}
+
+.bg {
+    background-image: url("@/shared/assets/images/large.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.title {
+    color: white;
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    @media (max-width: $mantine-breakpoint-md) {
+        text-align: center;
+    }
+
+}
+
+.text {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    max-width: 540px;
+    @media (max-width: $mantine-breakpoint-md) {
+        text-align: center;
+    }
+}

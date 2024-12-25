@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--mantine-color-white);
+    padding: 60px;
+    border-radius: var(--mantine-radius-lg);
+    box-shadow: var(--mantine-shadow-lg);
+    @media (max-width: $mantine-breakpoint-sm) {
+        padding: 30px;
+    }
+}
+
+.wrapperForIcon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--mantine-color-black);
+    transition: 0.3s all;
+    margin-left: 10px;
+    &:hover {
+        transform: scale(1.10);
+    }
+}
+
+.notFoundCode {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.wrapperNotFoundCode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 40px;
+    width: 100%;
+}

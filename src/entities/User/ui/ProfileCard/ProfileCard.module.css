@@ -1,0 +1,19 @@
+.profileCard {
+}
+
+.ava {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: var(--mantine-shadow-lg);
+    border: 1px solid var(--mantine-color-gray-4);
+    padding: 15px;
+    border-radius: var(--mantine-radius-lg);
+    max-width: 400px;
+    @media (max-width: $mantine-breakpoint-md) {
+        max-width: none;
+    }
+}

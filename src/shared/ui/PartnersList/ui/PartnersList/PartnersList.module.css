@@ -1,0 +1,13 @@
+.wrapper {
+    background: #057FFF;
+    border-radius: var(--mantine-radius-xl);
+    padding: 0 10px;
+}
+
+.white {
+    background: transparent;
+}
+
+.icon {
+    width: 100%;
+}
